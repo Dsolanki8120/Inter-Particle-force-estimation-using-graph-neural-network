@@ -1,7 +1,7 @@
 Graph Neural Network for Granular Material Contact Force Estimation:
 
-       This repository implements a Graph Neural Network (GNN) based on the Encode–Process–Decode architecture to estimate normalized particle contact forces (NPMNCF) in granular assemblies.
-       The implementation is inspired by the paper:
+ This repository implements a Graph Neural Network (GNN) based on the Encode–Process–Decode architecture to estimate normalized particle contact forces (NPMNCF) in granular assemblies.
+The implementation is inspired by the paper:
 
                        " Estimation of Contact Forces in Granular Materials Using Graph Neural Networks"
 Overview:
