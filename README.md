@@ -1,4 +1,4 @@
- Overview:
+# Overview:
          The project builds a physics-informed graph representation of granular particle assemblies where 
           Each node represents a particle (ball) with features like radius, displacement, and coordination number
           Each edge represents a contact between two particles, with features computed from relative displacement and contact status
@@ -6,7 +6,7 @@
 
                        " Estimation of Contact Forces in Granular Materials Using Graph Neural Networks"
 
-Reopositroy Structure:
+# Reopositroy Structure:
 
       ├── graph.py       # Graph construction and feature computation
       ├── model.py       # Encode–Process–Decode GNN model
@@ -15,10 +15,10 @@ Reopositroy Structure:
       ├── processed_graphs_and_targets.pt  # Cached data
       └── README.md
 
-Requirements:
+# Requirements:
 
       pip install torch, numpy, pandas, matplotlib 
-Working steps:
+# Working steps:
 
       1 Data Loading:
 
@@ -44,7 +44,7 @@ Working steps:
 
                 Tracks training and testing L1, L2, and correlation metrics.
 
-Run training:
+# Run training:
 
          python main.py
 
